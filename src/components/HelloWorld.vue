@@ -9,7 +9,7 @@ const count = ref(0);
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold">Hello world!</h1>
+  <h1 class="text-3xl font-bold">Hello world! Vue3, TailwindCSS, Firebase!!</h1>
 </template>
 
 <style scoped>
