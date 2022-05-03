@@ -6,8 +6,8 @@ const routes = [
     name: "main",
     component: () => import("../components/Main.vue"),
     meta: {
-      enterClass: "animate__animated animate__fadeInLeft",
-      leaveClass: "animate__animated animate__fadeOutRight",
+      enterClass: "animate__animated animate__fadeInLeft easey",
+      leaveClass: "animate__animated animate__fadeOutRight easey",
     },
   },
   {
@@ -15,8 +15,8 @@ const routes = [
     name: "view",
     component: () => import("../components/View.vue"),
     meta: {
-      enterClass: "animate__animated animate__fadeInRight",
-      leaveClass: "animate__animated animate__fadeOutLeft",
+      enterClass: "animate__animated animate__fadeInRight easey",
+      leaveClass: "animate__animated animate__fadeOutLeft easey",
     },
   },
 ];
