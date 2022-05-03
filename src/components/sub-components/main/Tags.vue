@@ -1,7 +1,7 @@
 <template>
-  <div class="mx-6 py-3 text-slate-50 flex">
+  <div class="mx-6 py-3 text-slate-50 flex font-[Poppins]">
     <div class="basis-1/2">
-      <div class="text-left font-medium">Group by:</div>
+      <div class="text-left font-semibold">Group by:</div>
     </div>
     <div class="basis-1/2">
       <div class="text-right">

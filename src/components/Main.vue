@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-neutral-900">
+  <div class="h-screen w-screen bg-neutral-900 absolute">
 
     <div class="flex flex-col p-4 bg-neutral-900 gap-y-5">
 
@@ -14,6 +14,8 @@
     <tags />
 
     <notes-list />
+
+    <fab class="fixed bottom-20 right-8 z-50" />
 
     <bottom-bar>
 
@@ -44,6 +46,7 @@ import TopNav from "./sub-components/main/TopNav.vue";
 import BottomBar from "./sub-components/misc/BottomBar.vue";
 import Tags from "./sub-components/main/Tags.vue";
 import NotesList from "./sub-components/main/NotesList.vue"
+import Fab from "./sub-components/main/Fab.vue";
 import { ref } from "vue";
 
 export default {
@@ -57,7 +60,8 @@ export default {
     TopNav,
     BottomBar,
     Tags,
-    NotesList
+    NotesList,
+    Fab
   },
 };
 

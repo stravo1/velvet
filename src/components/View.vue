@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-neutral-900">
+  <div class="h-screen w-screen bg-neutral-900 absolute">
     <div class="flex flex-col p-4 bg-neutral-900 gap-y-5">
       <top-bar />
     </div>
